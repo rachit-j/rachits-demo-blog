@@ -5,20 +5,24 @@ author_profile: true
 
 
 <title>Moving Car Animation</title>
+<meta charset="UTF-8">
+<title>Moving ASCII Art Animation</title>
 <style>
     #animationArea {
         width: 100%;
         height: 200px;
         position: relative;
         overflow: hidden;
+        white-space: pre;  /* To maintain the ASCII art formatting */
     }
     #car {
         position: absolute;
         bottom: 0;
-        width: 100px; /* Adjust based on your image size */
+        font-family: monospace;  /* To maintain the ASCII art's appearance */
     }
 </style>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
 <div id="animationArea">
     <pre id="car">
@@ -32,3 +36,4 @@ ________(__)_____________(__)____
 </div>
 
 <script src="car.js"></script>
+
