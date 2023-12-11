@@ -1,0 +1,27 @@
+---
+layout: home
+author_profile: true
+---
+
+
+<title>Moving Car Animation</title>
+<style>
+    #animationArea {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+    }
+    #car {
+        position: absolute;
+        bottom: 0;
+        width: 100px; /* Adjust based on your image size */
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<div id="animationArea">
+    <img id="car" src="/mater.png" alt="Car">
+</div>
+
+<script src="car.js"></script>
